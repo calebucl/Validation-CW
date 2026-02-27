@@ -2,11 +2,11 @@
 *****************************************************
 Summary
 -------
-Generated at: 2026-02-26T04:40:34+00:00
+Generated at: 2026-02-27T07:21:51+00:00
 
 Notes: 3
 Binaries: 2
-Archives: 0
+Archives: 4
 Standards: 578
 
 Apache Licensed: 578
@@ -17,11 +17,25 @@ Generated files do not require license headers.
 
 0 Unknown Licenses
 
+Archives:
+
+ + .gzoltar/gzoltaragent.jar
+ 
+ + .gzoltar/gzoltarcli.jar
+ 
+ + .gzoltar/hamcrest-core.jar
+ 
+ + .gzoltar/junit.jar
+ 
 *****************************************************
   Files with Apache License headers will be marked AL
   Binary files (which do not require any license headers) will be marked B
   Compressed archives will be marked A
   Notices, licenses etc. will be marked N
+  A     .gzoltar/gzoltaragent.jar
+  A     .gzoltar/gzoltarcli.jar
+  A     .gzoltar/hamcrest-core.jar
+  A     .gzoltar/junit.jar
   AL    .travis.yml
   AL    CONTRIBUTING.md
   AL    DEVELOPERS-GUIDE.html

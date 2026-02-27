@@ -74,6 +74,19 @@ public class TransformingComparatorTest extends AbstractComparatorTest<Integer> 
                 comp2.equals(comp1) ? comp2.hashCode() == comp1.hashCode() : true);
     }
 
+    public void testHashCodeMath() {
+        final Transformer<String, String> t1 = TransformerUtils.nopTransformer();
+        final Comparator<String> decorated = ComparatorUtils.NATURAL_COMPARATOR;
+        
+        final TransformingComparator<String, String> comp = new TransformingComparator<>(t1, decorated);
+
+        int expectedTotal = 17;
+        expectedTotal = expectedTotal * 37 + (decorated == null ? 0 : decorated.hashCode());
+        expectedTotal = expectedTotal * 37 + (t1 == null ? 0 : t1.hashCode());
+
+        assertEquals("HashCode math failed", expectedTotal, comp.hashCode());
+    }
+
     @Override
     public String getCompatibilityVersion() {
         return "4";
