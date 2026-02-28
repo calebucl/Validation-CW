@@ -179,6 +179,7 @@ org\apache\commons\collections4\iterators\SkippingIteratorTest.class
 org\apache\commons\collections4\map\PredicatedMapTest$1.class
 org\apache\commons\collections4\map\IdentityMap.class
 org\apache\commons\collections4\keyvalue\MultiKeyTest.class
+org\apache\commons\collections4\sequence\ReplacementsFinderTest$1.class
 org\apache\commons\collections4\IterableUtilsTest$10.class
 org\apache\commons\collections4\ListUtilsTest$3.class
 org\apache\commons\collections4\iterators\FilterListIteratorTest$1.class
@@ -270,6 +271,7 @@ org\apache\commons\collections4\iterators\PushbackIteratorTest.class
 org\apache\commons\collections4\bidimap\AbstractSortedBidiMapTest.class
 org\apache\commons\collections4\collection\TransformedCollectionTest$1.class
 org\apache\commons\collections4\iterators\FilterIteratorTest.class
+org\apache\commons\collections4\sequence\ReplacementsFinderTest.class
 org\apache\commons\collections4\bidimap\UnmodifiableOrderedBidiMapTest.class
 org\apache\commons\collections4\list\UnmodifiableListTest.class
 org\apache\commons\collections4\iterators\ListIteratorWrapper2Test.class

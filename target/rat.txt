@@ -2,14 +2,14 @@
 *****************************************************
 Summary
 -------
-Generated at: 2026-02-27T07:21:51+00:00
+Generated at: 2026-02-28T09:00:18+00:00
 
 Notes: 3
 Binaries: 2
 Archives: 4
-Standards: 578
+Standards: 579
 
-Apache Licensed: 578
+Apache Licensed: 579
 Generated Documents: 0
 
 JavaDocs are generated, thus a license header is optional.
@@ -590,6 +590,7 @@ Archives:
   AL    src/test/java/org/apache/commons/collections4/queue/TransformedQueueTest.java
   AL    src/test/java/org/apache/commons/collections4/queue/UnmodifiableQueueTest.java
   AL    src/test/java/org/apache/commons/collections4/QueueUtilsTest.java
+  AL    src/test/java/org/apache/commons/collections4/sequence/ReplacementsFinderTest.java
   AL    src/test/java/org/apache/commons/collections4/sequence/SequencesComparatorTest.java
   AL    src/test/java/org/apache/commons/collections4/set/AbstractNavigableSetTest.java
   AL    src/test/java/org/apache/commons/collections4/set/AbstractSetTest.java
